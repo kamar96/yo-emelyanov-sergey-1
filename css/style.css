@@ -207,6 +207,19 @@ body {
   line-height: 22px;
   color: #1E0606;
   padding-left: 110px;
+  gap: 30px;
+  align-items: center;
+}
+
+.category__text-content {
+  width: 580px;
+  height: 44px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1E0606;
 }
 
 .container_list-start {
@@ -237,10 +250,16 @@ body {
 }
 
 .social__thumb {
+  width: 1180px;
+  height: 61px;
+}
+
+.social__thumb {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 110px;
+  margin-right: 110px;
   margin-top: 101px;
   column-gap: 127px;  
 }
@@ -363,4 +382,12 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+}
+
+.category__text-arrow {
+  gap: 30px;
+}
+
+.main {
+  margin-bottom: 50px;
 }

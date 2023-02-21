@@ -10,6 +10,7 @@ a {
 
 .blog {
     margin-left: 110px;
+    margin-bottom: 63px;
 }
 
 .blog__nav {
@@ -24,6 +25,7 @@ a {
     line-height: 49px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-bottom: 0%;
 }
 
 .home {
@@ -37,6 +39,8 @@ a {
     flex-direction: row;
     column-gap: 20px;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 .blog__list-ul {
