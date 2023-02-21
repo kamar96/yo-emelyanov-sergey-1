@@ -4,23 +4,23 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="index.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="/css/normalize.css">
+     <link rel="stylesheet" href="/css/common.css">
+     <link rel="stylesheet" href="css/catalog.css">
      <title>Catalog</title>
-     <style>
-         .thumb img {
-          margin-right: 100px;
-         }
-     </style>
     </head>
     <body>
         <header class="header">
-            <ul class="header__list">
+            <ul class="header__list-one">
                 <li class="header__list-item"><a href="index.html"><img src="img/DLK Logo.png" alt="logo"></a></li>
                 <li class="header__list-item"><a href="blog.html">Blog</a></li>
                 <li class="header__list-item"><a href="catalog.html">Catalog</a></li>
                 <li class="header__list-item"><a href="#">About Us</a></li>
             </ul>
-            <ul>
+            <ul class="header__list-two">
                 <li class="header__list-item"><input type="image" src="img/icon/search.png" alt="search"></li>
                 <li class="header__list-item"><a href="contactus.html">Contact  Us</a></li>
             </ul>
@@ -57,58 +57,57 @@
         </section>
       </main>
     </body>
-    <footer>
-     <div class="nav">
-            <section class="nav__about">
-               <div class="nav__about-title"> Navigation
-              <hr>
-                <a href="#" class="nav__about-link">About Us</p> 
-                <a href="#" class="nav__about-link">Blog</p>
-                <a href="#" class="nav__about-link">Design Services</p>
-                <a href="#" class="nav__about-link">Featured On</p>
-                <a href="#" class="nav__about-link">2018 Holiday Catalog</p>
-                <a href="#" class="nav__about-link">Shop By Designer</p>
-              </div>
-               <div class="nav__about-title"> Customer Information
+    <footer class="footer">
+        <div class="nav">
+            <section class="nav_menu">
+               <ul class="nav_menu-chapt-nav"><h3 class="nav_menu-name">Navigation</h3>
                 <hr>
-                <a href="#" class="nav__about-link">Contact Us</p>
-                <a href="#" class="nav__about-link">Sale Exclusions</p>
-                <a href="#" class="nav__about-link">Shipping & Returns</p>
-                <a href="#" class="nav__about-link">Terms & Conditions</p>
-                <a href="#" class="nav__about-link">Privacy Policy</p>
-                <a href="#" class="nav__about-link">Search</p>
-            </div>
-            <div class="nav__about-title"> Connect
-             <hr>
-               <input type="email" class="nav__about-input" name="Email" id="">
-               <input type="button" class="nav__about-btn" value="JOIN">
-             <div class="nav__social">
-                    <a href="http://facebook.com/" class="nav__social-link"><img src="img/Facebook.png" class="nav__social-img" alt="Facebook"></a> 
-
-                   <a href="http://twitter.com/" class="nav__social-link"><img src="img/Twitter.png" class="nav__social-img" alt="Twitter"></a>
-
-                   <a href="https://pinterest.com/" class="nav__social-link"><img src="img/Pinterest.png" class="nav__social-img" alt="Pinterest"></a>
-            
-                   <a href="http://instagram.com/" class="nav__social-link"><img src="img/Instagram.png" class="nav__social-img" alt="instagram"></a>
-             </div>
-            </div>
-         </section>
-         <hr>
-         <section class="info">
-              <DIv>
-              Company Rating
-                
-                  <img src="img/Star.png" class="info__img" alt="star">
-                  <img src="img/Star.png" class="info__img" alt="star">
-                 <img src="img/Star.png" class="info__img" alt="star">
-                 <img src="img/Star.png" class="info__img" alt="star">
-                  <img src="img/Star.png" class="info__img" alt="star">
+              
+                <li><a href="#" class="nav_menu-chapt">About Us</li></a>
+                <li><a href="#" class="nav_menu-chapt">Blog</li></a>
+                <li><a href="#" class="nav_menu-chapt">Design Services</li></a>
+                <li><a href="#" class="nav_menu-chapt">Featured On</li></a>
+                <li><a href="#" class="nav_menu-chapt">2018 Holiday Catalog</li></a>
+                <li><a href="#" class="nav_menu-chapt">Shop By Designer</li></a>
+               </ul>
+               <ul class="nav_menu-chapt-cus"><h3 class="nav_menu-name">Customer Information</h3>
+                <hr>
+                <li><a href="#" class="nav_menu-chapt">Contact Us</li></a>
+                <li><a href="#" class="nav_menu-chapt">Sale Exclusions</li></a>
+                <li><a href="#" class="nav_menu-chapt">Shipping & Returns</li></a>
+                <li><a href="#" class="nav_menu-chapt">Terms & Conditions</li></a>
+                <li><a href="#" class="nav_menu-chapt">Privacy Policy</li></a>
+                <li><a href="#" class="nav_menu-chapt">Search</li></a>
+               </ul>
+               <ul class="nav_menu-chapt-con"><h3 class="nav_menu-name">Connect</h3>
+                <hr>
+                <li>
+                <input type="email" class="nav_menu-chapt-input" name="Email" id="">
+                <input type="button" class="nav_menu-chapt-btn" value="JOIN">
+                </li>
+                <ul class="social">
+                    <li><a href="http://twitter.com/" class="social-twitter"><img src="img/icon/Twitter.png" alt="Twitter"></a></li>
+                    <li><a href="http://facebook.com/" class="social-facebook"><img src="img/icon/Facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://pinterest.com/" class="social-pinterest"><img src="img/icon/Pinterest.png" alt="Pinterest"></a></li>
+                    <li><a href="http://instagram.com/" class="social-instagram"><img src="img/icon/Instagram.png" alt="instagram"></a></li>
+                </ul>
+               </ul>
+            </section>
+            <hr>
+            <section class="info">
+                <DIv class="info_name">
+                Company Rating
+                    <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                    <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                    <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                    <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                    <img src="img/icon/Star.png" class="info_name-star" alt="star">
                 </DIv>
-                <div>
-                  Copyright © 2018 Dlk • Design Life Kids
+                <div class="info_copyright">
+                    Copyright © 2018 Dlk • Design Life Kids
                 </div>
-                <div>
-                 Web Design — Direct Line Development
+                <div class="info_design">
+                    Web Design — Direct Line Development
                 </div>
             </section>
         </div>
