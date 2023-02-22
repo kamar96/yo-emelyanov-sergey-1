@@ -1,7 +1,5 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Crimson Text', serif;
 }
 
 .banner {
@@ -13,7 +11,9 @@ body {
   background: rgba(30, 6, 6, 0.6);
 }
 
-.banner_button-btn-two, .banner_button-btn-three, .banner_button-btn-four {
+.banner_button-btn-two 
+.banner_button-btn-three 
+.banner_button-btn-four {
   background: #D6CAC2;
 }
 
@@ -46,7 +46,6 @@ body {
 }
 
 .banner_title-info {
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -59,7 +58,6 @@ body {
   left: 110px;
   top: 603px;
   margin: auto;
-  align-items: center;
   color: white;
 }
 
@@ -83,7 +81,6 @@ body {
   height: 461px;
   left: 555px;
   top: -50px;
-  background: url(img/monster.png);
 }
 
 .category {
@@ -116,10 +113,21 @@ body {
 
 }
 
+.banner_text {
+  font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #1E0606;
+}
+
 .container {
   display: flex;
   margin-top: 90px;
   margin-left: 110px;
+  margin: auto;
+  align-items: center;
 }
 
 .container_list {
@@ -178,7 +186,6 @@ body {
   display: flex;
   margin-left: 120px;
   margin-top: 30px;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -200,7 +207,6 @@ body {
   display: flex;
   margin-left: -8%;
   margin-top: 30px;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,7 +220,6 @@ body {
 .category__text-content {
   width: 580px;
   height: 44px;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -226,7 +231,6 @@ body {
   display: flex;
   margin-top: 15px;
   margin-left: 120px;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -281,10 +285,14 @@ body {
 .contain_contacts {
   flex-direction: column;
   margin: auto;
-  margin-left: 57px;
   margin-right: auto;
   width: 543px;
   height: 254px;
+}
+
+.contain_text-story {
+  display: flex;
+  margin-top: 10px;
 }
 
 .contain_text-heading {
@@ -299,7 +307,7 @@ body {
 
 .contain_contacts-name {
   display: flex;
-  margin-left: 87px;
+  margin-right: 147px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -311,8 +319,7 @@ body {
 
 .contain_contacts-text {
   display: flex;
-  margin-left: 87px;
-  font-family: 'Open Sans';
+  margin-right: 147px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -390,4 +397,15 @@ body {
 
 .main {
   margin-bottom: 50px;
+}
+
+.contain__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 22px;
+  gap: 10px;
+  background: #000000;
+  color: white;
+  margin-top: 20px;
 }

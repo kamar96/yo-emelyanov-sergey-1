@@ -6,6 +6,11 @@ li {
     list-style-type: none;
 }
 
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  }
+
 .header {
   display: flex;
   align-items: center;
@@ -33,14 +38,6 @@ li {
   flex-direction: row;
   column-gap: 23.48px;
   align-items: center;
-}
-
-footer {
-  font-family: 'Open Sans', sans-serif;
-}
-
-header {
-  font-family: 'Open Sans', sans-serif;
 }
 
 .footer {
