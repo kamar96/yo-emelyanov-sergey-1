@@ -1,7 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Crimson Text', serif;
 }
 
 .category__nav {
@@ -67,26 +65,27 @@ body {
 }
 
 .discription {
-  margin-top: 55px;
-  margin-bottom: 55px;
-  width: 680px;
-  height: 256px;
-  left: 310px;
-  top: 919px;
-}
-
-.discription-info {
-  display: flex;
-  justify-content: center;
+  margin-top: 65px;
+  margin-left: 180px;
 }
 
 .discription__title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
-  line-height: 46px;
+  font-size: 40px;
+  line-height: 49px;
   text-transform: uppercase;
   color: #1E0606;
-  margin-bottom: 25px;
+}
+
+.discription_info {
+  display: flex;
+  max-width: 680px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1E0606;
 }

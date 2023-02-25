@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: black;
 }
 
 li {
@@ -18,26 +19,15 @@ li {
 }
 
 .header__list-one{
-  margin-top: 50px;
   margin-left: 109px;
-  margin-right: auto;
-  width: 1178px;
-  height: 52px;
   display: flex;
   flex-direction: row;
   column-gap: 20px;
   align-items: center;
 }
 
-.header__list-two{
-  margin-top: 50px;
-  margin-right: 110px;
-  width: 136.12px;
-  height: 24px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 23.48px;
-  align-items: center;
+.header__list-one5 {
+  padding-left: 677.93px;
 }
 
 .footer {

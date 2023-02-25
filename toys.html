@@ -14,28 +14,61 @@
 </head>
 <body>
     <header class="header">
-        <ul class="header__list">
+        <ul class="header__list-one">
             <li class="header__list-item"><a href="index.html"><img src="img/DLK Logo.png" alt="logo"></a></li>
             <li class="header__list-item"><a href="blog.html">Blog</a></li>
             <li class="header__list-item"><a href="catalog.html">Catalog</a></li>
             <li class="header__list-item"><a href="#">About Us</a></li>
-        </ul>
-        <ul>
-            <li class="header__list-item"><input type="image" src="img/icon/search.png" alt="search"></li>
+            <li class="header__list-item5"><input type="image" src="img/icon/search.png" alt="search"></li>
             <li class="header__list-item"><a href="contactus.html">Contact  Us</a></li>
         </ul>
     </header>
     <main class="toys">
         <section class="toys__nav">
             <h2 class="toys_nav-title">
-                Toy for kids</h2> Home <img src="img/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Catalog
-            <img src="img/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Toys
+                Toy for kids</h2> Home <img src="img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Catalog
+            <img src="img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Toys
         </section>
         <section class="toys__form">
-
+            <form action="#" method="get">
+                <fieldset class="">
+                    <p>Cost</p>
+                    <input type="range" min="0" max="500" class="range">
+                    <p class="range-0"><label for="0">0</label>    
+                    <label for="500" class="range-500">500</label></p>
+                    <ul>
+                    <p>Color</p>
+                    <li><input type="checkbox" name="black" id=""> Black</li>
+                    <li><input type="checkbox" name="blue" id=""> Blue</li>
+                    <li><input type="checkbox" name="green" id=""> Green</li>
+                    <li><input type="checkbox" name="white" id=""> White</li>
+                    </ul>
+                    <ul>
+                    <p>Delivery</p>  
+                    <li><input type="radio"> Free shipping</li>
+                    <li><input type="radio"> Fast shipping</li>
+                    </ul>
+                    <p>Amount</p>
+                    <label class="checkbox-btn">
+                        <label class="checkbox-btn">
+                            <input type="checkbox" checked>
+                            <span>0-5</span>
+                        </label>
+                        <label class="checkbox-btn">
+                            <input type="checkbox">
+                            <span>5-10</span>
+                        </label>
+                        <label class="checkbox-btn">
+                            <input type="checkbox">
+                            <span>10-20</span>
+                        </label>
+                    </label>
+                    <input type="submit" value="APPLY" class="apply-toys">
+                    </fieldset>
+            </form>
         </section>
         <section class="toys__catalog">
-            <ul>
+            <ul class="toys__catalog-ul">
                 <li class="toys__catalog-item"><img src="img/shark.png" class="toys__catalog-img" alt="shark"><p>SHARKY BEAN BAG CHAIR COVER</p><p><b>$60.00 USD</b></p></li>
                 <li class="toys__catalog-item"><img src="img/brass.png" class="toys__catalog-img" alt="brass"><p>BRASS DECO FRAMES</p><p><b>$66.00 USD</b></p></li>
                 <li class="toys__catalog-item"><img src="img/cibo.png" class="toys__catalog-img" alt="cibo"><p>CIBO FULL APRON</p><p><b>$60.00 USD</b></p></li>
@@ -45,68 +78,70 @@
             </ul>
         </section>
         <section class="toys__pages">
-            <button class="toys__pages-vector"><img src="img/icon/LVector.png" class="toys__pages-img" alt="Left_Arrow"></button>
-            <button class="toys__pages-one">1</button>
-            <button class="toys__pages-one">2</button>
-            <button class="toys__pages-one">3</button>
-            <button class="toys__pages-one">4</button>
-            <button class="toys__pages-vector"><img src="img/icon/RVector.png" class="toys__pages-img" alt="Right_Arrow"></button>
+        <ul class="toys__pages-ul">
+            <li><a href="#" class="toys__pages-vector"><img src="img/icon/LVector.png" class="toys__pages-img" alt="Left_Arrow"></a></li>
+            <li><a href="#" class="toys__pages-one">1</a></li>
+            <li><a href="#" class="toys__pages-one">2</a></li>
+            <li><a href="#" class="toys__pages-one">3</a></li>
+            <li><a href="#" class="toys__pages-one">4</a></li>
+            <li><a href="#" class="toys__pages-vector"><img src="img/icon/RVector.png" class="toys__pages-img" alt="Right_Arrow"></a></li>
+        </ul>
         </section>
+    </main>
 </body>
-    <footer>
-        <div class="nav">
-           <section class="nav__about">
-              <div class="nav__about-title"> Navigation
-             <hr>
-               <a href="#" class="nav__about-link">About Us</p> 
-               <a href="#" class="nav__about-link">Blog</p>
-               <a href="#" class="nav__about-link">Design Services</p>
-               <a href="#" class="nav__about-link">Featured On</p>
-               <a href="#" class="nav__about-link">2018 Holiday Catalog</p>
-               <a href="#" class="nav__about-link">Shop By Designer</p>
-             </div>
-               <div class="nav__about-title"> Customer Information
-               <hr>
-               <a href="#" class="nav__about-link">Contact Us</p>
-               <a href="#" class="nav__about-link">Sale Exclusions</p>
-               <a href="#" class="nav__about-link">Shipping & Returns</p>
-               <a href="#" class="nav__about-link">Terms & Conditions</p>
-               <a href="#" class="nav__about-link">Privacy Policy</p>
-               <a href="#" class="nav__about-link">Search</p>
-                </div>
-           <div class="nav__about-title"> Connect
+<footer class="footer">
+    <div class="nav">
+        <section class="nav_menu">
+           <ul class="nav_menu-chapt-nav"><h3 class="nav_menu-name">Navigation</h3>
             <hr>
-              <input type="email" class="nav__about-input" name="Email" id="">
-              <input type="button" class="nav__about-btn" value="JOIN">
-            <div class="nav__social">
-                   <a href="http://facebook.com/" class="nav__social-link"><img src="img/Facebook.png" class="nav__social-img" alt="Facebook"></a> 
-
-                  <a href="http://twitter.com/" class="nav__social-link"><img src="img/Twitter.png" class="nav__social-img" alt="Twitter"></a>
-
-                  <a href="https://pinterest.com/" class="nav__social-link"><img src="img/Pinterest.png" class="nav__social-img" alt="Pinterest"></a>
-           
-                  <a href="http://instagram.com/" class="nav__social-link"><img src="img/Instagram.png" class="nav__social-img" alt="instagram"></a>
+          
+            <li><a href="#" class="nav_menu-chapt">About Us</li></a>
+            <li><a href="#" class="nav_menu-chapt">Blog</li></a>
+            <li><a href="#" class="nav_menu-chapt">Design Services</li></a>
+            <li><a href="#" class="nav_menu-chapt">Featured On</li></a>
+            <li><a href="#" class="nav_menu-chapt">2018 Holiday Catalog</li></a>
+            <li><a href="#" class="nav_menu-chapt">Shop By Designer</li></a>
+           </ul>
+           <ul class="nav_menu-chapt-cus"><h3 class="nav_menu-name">Customer Information</h3>
+            <hr>
+            <li><a href="#" class="nav_menu-chapt">Contact Us</li></a>
+            <li><a href="#" class="nav_menu-chapt">Sale Exclusions</li></a>
+            <li><a href="#" class="nav_menu-chapt">Shipping & Returns</li></a>
+            <li><a href="#" class="nav_menu-chapt">Terms & Conditions</li></a>
+            <li><a href="#" class="nav_menu-chapt">Privacy Policy</li></a>
+            <li><a href="#" class="nav_menu-chapt">Search</li></a>
+           </ul>
+           <ul class="nav_menu-chapt-con"><h3 class="nav_menu-name">Connect</h3>
+            <hr>
+            <li>
+            <input type="email" class="nav_menu-chapt-input" name="Email" id="">
+            <input type="button" class="nav_menu-chapt-btn" value="JOIN">
+            </li>
+            <ul class="social">
+                <li><a href="http://twitter.com/" class="social-twitter"><img src="img/icon/Twitter.png" alt="Twitter"></a></li>
+                <li><a href="http://facebook.com/" class="social-facebook"><img src="img/icon/Facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://pinterest.com/" class="social-pinterest"><img src="img/icon/Pinterest.png" alt="Pinterest"></a></li>
+                <li><a href="http://instagram.com/" class="social-instagram"><img src="img/icon/Instagram.png" alt="instagram"></a></li>
+            </ul>
+           </ul>
+        </section>
+        <hr>
+        <section class="info">
+            <DIv class="info_name">
+            Company Rating
+                <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                <img src="img/icon/Star.png" class="info_name-star" alt="star">
+                <img src="img/icon/Star.png" class="info_name-star" alt="star">
+            </DIv>
+            <div class="info_copyright">
+                Copyright © 2018 Dlk • Design Life Kids
             </div>
-           </div>
-            </section>
-            <hr>
-            <section class="info">
-                <DIv>
-                Company Rating
-               
-                 <img src="img/Star.png" class="info__img" alt="star">
-                 <img src="img/Star.png" class="info__img" alt="star">
-                <img src="img/Star.png" class="info__img" alt="star">
-                <img src="img/Star.png" class="info__img" alt="star">
-                 <img src="img/Star.png" class="info__img" alt="star">
-               </DIv>
-               <div>
-                 Copyright © 2018 Dlk • Design Life Kids
-               </div>
-               <div>
+            <div class="info_design">
                 Web Design — Direct Line Development
-               </div>
-           </section>
-       </div>
-   </footer>
+            </div>
+        </section>
+    </div>
+</footer>
 </html>

@@ -2,11 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.banner {
-  display: flex;
-  flex-direction: row;
-}
-
 .banner_button-btn-one {
   background: rgba(30, 6, 6, 0.6);
 }
@@ -14,7 +9,7 @@ body {
 .banner_button-btn-two 
 .banner_button-btn-three 
 .banner_button-btn-four {
-  background: #D6CAC2;
+  background: white;
 }
 
 .banner_numb {
@@ -40,10 +35,11 @@ body {
 .banner {
   display: flex;
   background-color: #EEE4DB;
-  width: 1180px;
+  max-width: 1180px;
   height: 411px;
   margin: auto;
 }
+
 
 .banner_title-info {
   font-style: normal;
@@ -53,18 +49,17 @@ body {
   text-align: center;
   text-transform: uppercase;
   background: #C29974;
-  width: 1180px;
-  height: 39px;
-  left: 110px;
-  top: 603px;
   margin: auto;
+  margin-inline: 110px;
   color: white;
+  padding: 11px;
 }
 
 .banner_title-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 9px 22px;
   gap: 10px;
   width: 161px;
@@ -400,11 +395,7 @@ color: #1E0606;
 }
 
 .contain__btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 9px 22px;
-  gap: 10px;
   background: #000000;
   color: white;
   margin-top: 20px;
