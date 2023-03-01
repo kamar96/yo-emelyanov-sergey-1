@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog {
+    margin-left: 110px;
+    margin-bottom: 63px;
+}
+
+.blog__nav {
+    margin-left: 38px;
+}
+
+.blog__nav-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 0%;
+}
+
+.home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.blog__list-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.blog__list-news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+.toys__pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.toys__pages-vectorL {
+    margin-right: 393px;
+}
+
+.toys__pages-vectorR {
+    margin-left: 393px;
+}
