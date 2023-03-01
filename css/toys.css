@@ -51,6 +51,7 @@ body {
     flex-direction: row;
     width: 1400px;
 	background: rgba(125, 151, 218, 0.2);
+	margin-left: -138px;
 }
 
 .range {
@@ -103,4 +104,14 @@ body {
 	display: flex;
 	column-gap: 67px;
 	align-items: center;
+}
+
+.form__param {
+	display: flex;
+	column-gap: 110px;
+	border-style: none;
+}
+
+.forma {
+	padding-left: 83px;
 }

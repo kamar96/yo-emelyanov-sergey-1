@@ -30,12 +30,13 @@
             <img src="img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Toys
         </section>
         <section class="toys__form">
-            <form action="#" method="get">
-                <fieldset class="">
+            <form action="#" method="get" class="forma">
+                <fieldset class="form__param">
+                    <ul>
                     <p>Cost</p>
-                    <input type="range" min="0" max="500" class="range">
+                    <li><input type="range" min="0" max="500" class="range">
                     <p class="range-0"><label for="0">0</label>    
-                    <label for="500" class="range-500">500</label></p>
+                    <label for="500" class="range-500">500</label></p></li></ul>
                     <ul>
                     <p>Color</p>
                     <li><input type="checkbox" name="black" id=""> Black</li>
@@ -48,8 +49,9 @@
                     <li><input type="radio"> Free shipping</li>
                     <li><input type="radio"> Fast shipping</li>
                     </ul>
+                    <ul class="knopki">
                     <p>Amount</p>
-                    <label class="checkbox-btn">
+                    <li><label class="checkbox-btn">
                         <label class="checkbox-btn">
                             <input type="checkbox" checked>
                             <span>0-5</span>
@@ -61,9 +63,10 @@
                         <label class="checkbox-btn">
                             <input type="checkbox">
                             <span>10-20</span>
-                        </label>
+                        </label></li>
+                        <li><input type="submit" value="APPLY" class="apply-toys"></li>
                     </label>
-                    <input type="submit" value="APPLY" class="apply-toys">
+                    </ul>
                     </fieldset>
             </form>
         </section>
