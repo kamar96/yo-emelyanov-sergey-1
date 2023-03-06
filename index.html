@@ -105,8 +105,29 @@
                 <li><img src="img/maps.png" class="contain_contacts-img" alt="maps"></li>
                 </ul>
         </section>
+        <div class="popup-bg">
+            <div class="popup">
+              <img class="close-popup" src="img/close.png" alt="close_window">
+              <div class="contact-form">
+                <form class="form" action="form.php" method="post" target="_blank">
+                    <label>Name: <p><input type="text" name="name" class="contact__form-name"></p></label>
+                <div class="contacts">
+                    <label>Phone: <input type="text" name="number" class="contact__form-input"></label>
+                    <label>Email: <input type="text" name="email" class="contact__form-input"></label>
+                </div>
+                <div class="message">
+                    <label>Message: <input type="text" name="message" class="contact__form-mes"></label>
+                    <label class="click"><input type="checkbox" class="contact__form-chekbox"> By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+                <div>
+                    <input type="submit" value="SUBMIT" class="contact__form-btn">
+                </div>
+                </form>   
+              </div>
+            </div>
+          </div>
     </main>
-    </body>
+    <script src="js/main.js"></script>
     <footer class="footer">
         <div class="nav">
             <section class="nav_menu">
@@ -145,14 +166,14 @@
             </section>
             <hr class="line">
             <section class="info">
-                <DIv class="info_name">
+                <div class="info_name">
                 Company Rating
                     <img src="img/icon/Star.png" class="info_name-star" alt="star">
                     <img src="img/icon/Star.png" class="info_name-star" alt="star">
                     <img src="img/icon/Star.png" class="info_name-star" alt="star">
                     <img src="img/icon/Star.png" class="info_name-star" alt="star">
                     <img src="img/icon/Star.png" class="info_name-star" alt="star">
-                </DIv>
+                </div>
                 <div class="info_copyright">
                     Copyright © 2018 Dlk • Design Life Kids
                 </div>
@@ -162,4 +183,5 @@
             </section>
         </div>
     </footer>
+</body>
 </html>
