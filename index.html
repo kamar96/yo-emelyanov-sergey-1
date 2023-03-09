@@ -16,11 +16,11 @@
     <header class="header">
         <ul class="header__list-one">
             <li class="header__list-item"><a href="index.html"><img src="img/DLK Logo.png" alt="logo"></a></li>
-            <li class="header__list-item"><a href="blog.html">Blog</a></li>
-            <li class="header__list-item"><a href="catalog.html">Catalog</a></li>
+            <li class="header__list-item"><a href="/pages/blog.html">Blog</a></li>
+            <li class="header__list-item"><a href="/pages/catalog.html">Catalog</a></li>
             <li class="header__list-item4"><a href="#">About Us</a></li>
             <li class="header__list-item5"><input type="image" src="img/icon/search.png" alt="search"></li>
-            <li class="header__list-item"><a href="contactus.html">Contact  Us</a></li>
+            <li class="header__list-item"><a href="/pages/contactus.html">Contact  Us</a></li>
         </ul>
     </header>
     <main class="main">
@@ -36,7 +36,7 @@
             <div class="block-2">
             <h1 class="banner_title">THE OOH NOO<br>COLLECTION</h1>
             <p class="banner_text">Designed in Slovenia</p>
-            <a href="#" type="button" class="banner_title-btn">EXPLORE NOW</a>
+            <button class="banner_title-btn">EXPLORE NOW</button>
             </div>
             <div class="block-3">
             <img src="img/monster.png" class="banner_title-img" alt="picture">
@@ -105,29 +105,26 @@
                 <li><img src="img/maps.png" class="contain_contacts-img" alt="maps"></li>
                 </ul>
         </section>
-        <div class="popup-bg">
-            <div class="popup">
-              <img class="close-popup" src="img/close.png" alt="close_window">
-              <div class="contact-form">
-                <form class="form" action="form.php" method="post" target="_blank">
-                    <label>Name: <p><input type="text" name="name" class="contact__form-name"></p></label>
-                <div class="contacts">
-                    <label>Phone: <input type="text" name="number" class="contact__form-input"></label>
-                    <label>Email: <input type="text" name="email" class="contact__form-input"></label>
-                </div>
-                <div class="message">
-                    <label>Message: <input type="text" name="message" class="contact__form-mes"></label>
-                    <label class="click"><input type="checkbox" class="contact__form-chekbox"> By clicking on the button, you consent to the processing of your personal data</label>
-                </div>
-                <div>
-                    <input type="submit" value="SUBMIT" class="contact__form-btn">
-                </div>
-                </form>   
-              </div>
+        <section class="contact">
+            <section class="contact-bg">
+            <div class="contact-form">
+            <form class="form" action="form.php" method="post" target="_blank">
+                <label>Name: <p><input type="text" name="name" class="contact__form-name"></p></label>
+            <div class="contacts">
+                <label>Phone: <input type="text" name="number" class="contact__form-input"></label>
+                <label>Email: <input type="text" name="email" class="contact__form-input"></label>
             </div>
-          </div>
+            <div class="message">
+                <label><p>Message:</p><input type="text" name="message" class="contact__form-mes"></label>
+                <label class="click"><p><input type="checkbox" class="contact__form-chekbox">By clicking on the button, you consent to the processing of your personal data</p></label>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT" class="contact__form-btn">
+            </div>
+            </form>   
+        </div>
+        </section>
     </main>
-    <script src="js/main.js"></script>
     <footer class="footer">
         <div class="nav">
             <section class="nav_menu">
@@ -183,5 +180,6 @@
             </section>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

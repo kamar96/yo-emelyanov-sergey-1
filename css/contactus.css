@@ -5,6 +5,7 @@ body {
 .contact-form {
     width: 680px;
     height: 542px;
+    background: #E5EAF8;
 }
 
 .main {
@@ -80,4 +81,9 @@ body {
     line-height: 34px;
     text-transform: uppercase;
     color: #C29974;
+}
+
+.contact-bg {
+    background: #E5EAF8;
+    border: 40px solid #E5EAF8;
 }
