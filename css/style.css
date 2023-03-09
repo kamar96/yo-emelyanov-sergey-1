@@ -50,7 +50,7 @@ body {
   text-transform: uppercase;
   background: #C29974;
   margin: auto;
-  margin-inline: 81px;
+  margin-inline: 7px;
   color: white;
   padding: 11px;
 }
@@ -256,9 +256,8 @@ color: #1E0606;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 68px;
   margin-top: 101px;
-  column-gap: 127px;  
+  column-gap: 91px;  
 }
 
 .contain {
@@ -322,7 +321,7 @@ color: #1E0606;
 
 .main__list-item-text-one {
   position: absolute;
-  left: 5.79%;
+  left: 9.79%;
   right: 69.14%;
   top: 31.15%;
   font-family: 'Montserrat';
@@ -338,7 +337,7 @@ color: #1E0606;
 
 .main__list-item-text-two {
   position: absolute;
-  left: 30.79%;
+  left: 34.79%;
   right: 65.14%;
   top: 32.3%;
   font-family: 'Montserrat';
@@ -354,7 +353,7 @@ color: #1E0606;
 
 .main__list-item-text-three {
   position: absolute;
-  left: 36.79%;
+  left: 50.79%;
   right: 30.14%;
   top: 33.3%;
   font-family: 'Montserrat';
@@ -370,7 +369,7 @@ color: #1E0606;
 
 .main__list-item-text-four {
   position: absolute;
-  left: 64.79%;
+  left: 70.79%;
   right: 54.14%;
   top: 33.11%;
   font-family: 'Montserrat';
@@ -400,8 +399,13 @@ color: #1E0606;
 }
 
 .contact-form {
-  width: 680px;
+  width: 605px;
   height: 542px;
+  border: 40px solid #E5EAF8;
+}
+
+.none {
+  padding-bottom: 45px;
 }
 
 .main {
@@ -480,25 +484,36 @@ color: #1E0606;
 }
 
 .popup {
+  background: #E5EAF8;
   position: absolute;
-  background: #220707;
-  width: 400px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 30px;
-  padding-top: 60px;
+  left: 15%;
+  top: 0%;;
   display: none;
+  z-index: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(125, 151, 218, 0.8);
+}
+
+.popup_wr {
+  display: flex;
+  z-index: 20;
 }
 
 .open {
-  display: block;
+  display: flex;
 }
 
-.contact-bg {
-  background: #E5EAF8;
-  border: 40px solid #E5EAF8;
+.close-popup {
   position: absolute;
-  left: 14%;
-  top: 0%;
+  left: 100%;
+  background: none;
+  border: none;
 }

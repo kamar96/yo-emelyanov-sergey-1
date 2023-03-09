@@ -1,7 +1,9 @@
 const buttonMenu = document.querySelector('.banner_title-btn');
 const popup = document.querySelector('.popup');
-buttonMenu.addEventListener('click', function() {
-  popup.classList.add('open');
-});
+const closePopup = document.querySelector('.close-popup')
 
-buttonMenu.addEventListener('click', function() {console.log("ale")});  
+buttonMenu.addEventListener('click', function() {
+  popup.classList.add('open');});
+
+closePopup.addEventListener('click', function() {
+  popup.classList.remove('open');});
