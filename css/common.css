@@ -10,28 +10,39 @@ li {
 .container {
   max-width: 1180px;
   margin: 0 auto;
-  }
+}
 
 .header {
+  margin-top: 36px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
   display: flex;
   align-items: center;
-  margin-bottom: 49px;
+  text-transform: uppercase;
+  color: #1E0606;
+}
+
+.header__list-item2 {
+  margin-left: 40px;
+}
+
+.header__list-item5 {
+  padding-right: 6px;
 }
 
 .header__list-one{
-  margin-left: 109px;
+  margin-left: 67px;
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
+  column-gap: 17px;
   align-items: center;
 }
 
-.header__list-one5 {
-  padding-left: 677.93px;
-}
-
 .header__list-item4 {
-  padding-right: 678px;
+  padding-right: 659px;
 }
 
 .footer {
@@ -47,6 +58,12 @@ li {
   color: #AAAAAA;
 }
 
+.nav_menu-chapt-btn {
+  background: black;
+    color: white;
+    padding: 9px 21px;
+}
+
 .nav_menu-chapt {
   font-family: 'Open Sans';
   font-style: normal;
@@ -58,45 +75,73 @@ li {
 
 .info_name {
   color: #FFFFFF;
-  margin-right: 155px;
+  margin-right: 170px;
+  padding-right: 17px;
+}
+
+.line-three {
+  padding-left: 222px;
 }
 
 .info_copyright {
   color: #FFFFFF;
-  margin-right: 93px;
+  margin-right: 109px;
 }
 
 .info_design {
   color: #AAAAAA;
 }
 
-.social {
-  display: flex;
-  column-gap: 18.44px;
-  padding-left: 0;
-  margin-top: 25px;
-}
-
 .nav_menu {
   display: flex;
-  column-gap: 174px;
-  margin-left: 51px;
+  column-gap: 203px;
+  margin-left: 70px;
 }
 
 .info {
   display: flex;
-  margin-left: 91px;
+  margin-left: 110px;
+  margin-top: 25px;
+}
+
+.line-long {
+  width: 90%;
+  margin: 11px 109px;
 }
 
 .line {
-  margin-left: 92px;
+  margin-left: 107px;
+  margin-top: 11px;
 }
 
 .nav {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 42px;
+  padding-bottom: 216px;
 }
 
 .nav_menu-chapt-input {
-  width: 300px;
+  padding: 9px 52px;
+}
+
+.nav_menu-chapt-con {
+  padding-left: 31px;
+}
+
+.social {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 22px;
+  padding-left: 0;
+}
+
+.form_footer {
+  margin-top: 29px;
+}
+
+.list__footer {
+  margin-top: 28px;
+}
+
+.list__footer2 {
+  margin-top: 15px;
 }

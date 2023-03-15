@@ -51,10 +51,12 @@
    */
   
   hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-  }
+    box-sizing: content-box;
+    height: 0px;
+    width: 155px;
+    overflow: visible;
+    margin-top: 22px;
+}
   
   /**
    * 1. Correct the inheritance and scaling of font size in all browsers.

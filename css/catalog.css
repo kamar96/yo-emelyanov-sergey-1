@@ -34,8 +34,9 @@ body {
 }
 
 .category {
-  margin-left: 110px;
-  margin-bottom: 55px;
+  margin-left: 72px;
+  margin-bottom: 56px;
+  margin-top: 42px;
 }
 
 .category__listup {
@@ -46,8 +47,6 @@ body {
 .category__listup-item {
   display: flex;
   flex-direction: column;
-  width: 244px;
-  height: 177x;
 }
 
 .category__listdown {
@@ -60,12 +59,10 @@ body {
 .category__listdown-item {
   display: inline;
   flex-direction: row;
-  width: 244px;
-  height: 177px;
 }
 
 .discription {
-  margin-top: 65px;
+  margin-top: 601px;
   margin-left: 180px;
 }
 
@@ -73,10 +70,13 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 25px;
+  line-height: 45px;
   text-transform: uppercase;
   color: #1E0606;
+  margin-left: 20px;
+  word-spacing: 4px;
+  letter-spacing: 0px;
 }
 
 .discription_info {
@@ -88,4 +88,169 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #1E0606;
+  margin-left: 18px;
+  margin-top: -3px;
+}
+
+.discription_info2 {
+  display: flex;
+  max-width: 680px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1E0606;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+
+.discription_info3 {
+  display: flex;
+  max-width: 680px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1E0606;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+
+.category__listup-appa {
+  position: absolute;
+    top: 347px;
+    left: 127px;
+}
+
+.category__listup-appk {
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    left: 184px;
+    top: 378px;
+    width: 131px;
+}
+
+.category__listup-holi {
+  position: absolute;
+  left: 446px;
+  top: 314px;
+}
+
+.category__listup-hol {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  left: 484px;
+  top: 378px;
+  width: 131px;
+}
+
+.category__listup-toys {
+  position: absolute;
+  left: 53.2%;
+  top: 302px;
+}
+
+.category__listup-toy {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  left: 814px;
+  top: 394px;
+}
+
+.category__listdown-acc {
+  position: absolute;
+    left: 24.6%;
+    top: 604px;
+}
+
+.category__listdown-acces {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  left: 354px;
+  top: 687px;
+}
+
+.category__listdown-sale{
+  position: absolute;
+  left: 626px;
+  top: 605px;
+}
+
+.category__listdown-sal{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  left: 715px;
+  top: 687px;
+}
+
+.category__listdown-app {
+  position: absolute;
+  right: 156px;
+  top: 627px;
+}
+
+.category__listdown-appa {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  top: 671px;
+  right: 227px;
+  left: 980px;
+}
+
+.header__list-one {
+  margin-left: 69px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
 }
