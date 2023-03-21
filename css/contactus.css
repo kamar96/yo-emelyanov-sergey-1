@@ -2,11 +2,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
 .contact-form {
     width: 602px;
-    height: 542px;
     background: #E5EAF8;
-    margin: 6px 2px;
+    padding: 40px;
 }
 
 .main {
@@ -19,7 +24,6 @@ body {
     border: 0px solid rgba(0, 0, 0, 0.2);
     width: 596px;
     height: 47px;
-    margin-top: -12px;
 }
 
 .contact__form-input {
@@ -39,6 +43,7 @@ body {
 .contact {
     display: flex;
     margin-top: 49px;
+    margin-bottom: 60px;
 }
 
 .contact__form-mes {

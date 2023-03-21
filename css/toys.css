@@ -2,6 +2,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
 .checkbox-btn {
 	display: inline-block;
 	margin: 0 5px 0 0;
@@ -51,7 +56,6 @@ body {
     flex-direction: row;
     width: 1400px;
 	background: rgba(125, 151, 218, 0.2);
-	margin-left: -138px;
 }
 
 .range {

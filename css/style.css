@@ -79,6 +79,7 @@ body {
 .category {
   display: flex;
   flex-direction: column;
+  margin-top: 90px;
 }
 
 .main__list {
@@ -103,7 +104,7 @@ body {
   line-height: 46px;
   text-transform: uppercase;
   color: #1E0606;   
-
+  margin-bottom: 30px;
 }
 
 .banner_text {
@@ -118,6 +119,8 @@ body {
 .delivery {
   display: flex;
   align-items: center;
+  gap: 120px;
+  margin-top: 90px;
 }
 
 .delivery_name {
@@ -129,6 +132,7 @@ body {
   line-height: 46px;
   text-transform: uppercase;
   color: #1E0606;
+  margin-bottom: 17px;
 }
 
 .delivery_name-two {
@@ -139,6 +143,11 @@ body {
   font-size: 26px;
   line-height: 7px;
   color: #1E0606;
+  margin-bottom: 22px;
+}
+
+.contain_text-some {
+  z-index: 3;
 }
 
 .delivery_list-garant {
@@ -154,13 +163,13 @@ body {
 
 .delivery_list-credit {
   display: flex;
-
   font-family: 'Crimson Text';
   font-style: italic;
   font-weight: 400;
   font-size: 26px;
   line-height: 21px;
   color: #1E0606;
+  padding-bottom: 30px;
 }
 
 .delivery_list-aboutme {
@@ -170,6 +179,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #1E0606;
+  padding-bottom: 15px;
 }
 
 .delivery_btn {
@@ -188,7 +198,6 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #1E0606;
-  padding-left: 110px;
   gap: 27px;
   align-items: center;
 }
@@ -209,6 +218,7 @@ body {
   font-size: 26px;
   line-height: 34px;
   color: #1E0606;
+  z-index: 3;
 }
 
 .delivery_list-start {
@@ -218,7 +228,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #1E0606;
-  
+  padding-bottom: 25px;
 }
 
 .delivery_list-btn {
@@ -235,11 +245,13 @@ body {
   flex-direction: row;
   align-items: center;
   column-gap: 126px;
+  margin-top: 91px;
+  margin-bottom: 90px;
 }
 
 .contain {
   display: flex;
-  padding-bottom: 43px;
+  padding-bottom: 200px;
 }
 
 .contain_text {
@@ -250,12 +262,24 @@ body {
 
 .contain_contacts {
   flex-direction: column;
+  margin-left: 117px;
 }
 
-.contaim_contacts-img {
+.contain_contacts-img {
   position: absolute;
   right: 120px;
-  bottom: 266px;
+  bottom: 27px;
+  z-index: 3;
+}
+
+.bg_text {
+  background: #E1F0F7;
+  position: absolute;
+  width: 543px;
+  height: 209px;
+  left: 560px;
+  top: 1824px;
+  z-index: 1;
 }
 
 .contain_text-story {
@@ -267,6 +291,18 @@ body {
     line-height: 22px;
     color: #1E0606;
     max-width: 479px;
+    position: relative;
+    z-index: 3;
+}
+
+.bg_contacts {
+  background: #E1F0F7;
+  position: absolute;
+  width: 525px;
+  height: 230px;
+  left: -10px;
+  top: 1824px;
+  z-index: 1;
 }
 
 .contain_text-heading {
@@ -277,6 +313,8 @@ body {
   line-height: 46px;
   text-transform: uppercase;
   color: #1E0606;
+  z-index: 3;
+  position: relative;
 }
 
 .contain_contacts-name {
@@ -285,9 +323,11 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
-    line-height: 5px;
+    line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    position: relative;
+    z-index: 3;
 }
 
 .contain_contacts-text {
@@ -297,6 +337,9 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #1E0606;
+  width: 120px;
+  height: 120px;
+  background: #E1F0F7;
 }
 
 .main__list-img-shop {
@@ -305,29 +348,6 @@ body {
 
 .main__list-img-acc {
   background: #D5D4E1;
-}
-
-.main__list-item-one {
-  position: absolute;
-  top: 29.1%;
-  left: 72px;
-}
-
-.main__list-item-two {
-  position: absolute;
-  left: 391px;
-  top: 27.6%;
-}
-
-.main__list-item-three {
-  position: absolute;
-  right: 356px;
-}
-
-.main__list-item-four {
-  position: absolute;
-  right: 73px;
-  top: 27.5%;
 }
 
 .main__list-item-text-three {
@@ -345,6 +365,10 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  top: 30%;
+  left: 17px;
+  width: 190px;
 }
 
 .main__list-item-text-two {
@@ -357,6 +381,10 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  top: 30%;
+  left: 310px;
+  width: 190px;
 }
 
 .main__list-item-text-three {
@@ -369,6 +397,10 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    top: 30%;
+    left: 597px;
+    width: 190px;
 }
 
 .main__list-item-text-four {
@@ -381,6 +413,10 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  position: absolute;
+  top: 30%;
+  left: 917px;
+  width: 190px;
 }
 
 .category__text-arrow {
@@ -391,6 +427,8 @@ body {
   padding: 10px 24px;
   background: #000000;
   color: white;
+  z-index: 3;
+  position: relative;
 }
 
 .contact-form {

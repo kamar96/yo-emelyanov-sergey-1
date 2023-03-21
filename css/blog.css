@@ -6,6 +6,12 @@ a {
     text-decoration: none;
 }
 
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
 .blog {
     margin-left: 110px;
     margin-bottom: 63px;
