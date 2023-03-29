@@ -12,6 +12,11 @@ li {
   padding: 0;
 }
 
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .header__list-item5 {
   display: inline-block;
   align-content: flex-end;
@@ -27,7 +32,8 @@ li {
   align-items: center;
   text-transform: uppercase;
   color: #1E0606;
-  padding-bottom: 130px;
+  padding-bottom: 60px;
+  margin-top: 50px;
 }
 
 .header__list-one{
@@ -39,6 +45,11 @@ li {
 
 .footer {
   background: #434343;
+}
+
+.nav {
+  padding-top: 42px;
+  padding-bottom: 40px;
 }
 
 .nav_menu-name {
@@ -85,11 +96,6 @@ li {
 .info {
   display: inline-flex;
   gap: 146px
-}
-
-.nav {
-  padding-top: 42px;
-  padding-bottom: 216px;
 }
 
 .nav_menu-chapt-input {

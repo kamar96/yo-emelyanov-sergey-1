@@ -2,15 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-.container {
-  max-width: 1180px;
-  margin: 0 auto;
-}
-
 .category__nav {
   margin-bottom: 50px;
-  margin-left: 38px;
 }
 
 .category_nav-title {
@@ -21,7 +14,6 @@ body {
   line-height: 49px;
   text-transform: uppercase;
   color: #1E0606;
-  margin-bottom: 0%;
 }
 
 .home {
@@ -37,12 +29,6 @@ body {
   align-items: center;
   margin-bottom: 50px;
   margin-top: 15px;
-}
-
-.category {
-  margin-left: 72px;
-  margin-bottom: 56px;
-  margin-top: 42px;
 }
 
 .category__listup {
@@ -68,8 +54,9 @@ body {
 }
 
 .discription {
-  margin-top: 601px;
-  margin-left: 180px;
+  margin-top: 440px;
+  margin-left: 220px;
+  margin-bottom: 55px;
 }
 
 .discription__title {
@@ -95,7 +82,11 @@ body {
   line-height: 22px;
   color: #1E0606;
   margin-left: 18px;
-  margin-top: -3px;
+}
+
+.discription_in {
+  display: grid;
+  gap: 15px;
 }
 
 .discription_info2 {
@@ -108,7 +99,6 @@ body {
   line-height: 22px;
   color: #1E0606;
   margin-left: 18px;
-  margin-top: 14px;
 }
 
 .discription_info3 {
@@ -121,35 +111,96 @@ body {
   line-height: 22px;
   color: #1E0606;
   margin-left: 18px;
-  margin-top: 14px;
 }
 
 .category__listup-appa {
+  z-index: 3;
+  position: relative;
+  top: 11px;
+}
+
+.bg-kids {
   position: absolute;
-    top: 347px;
-    left: 127px;
+    width: 260px;
+    height: 250px;
+    left: 73px;
+    top: 288px;
+    background: #DBE4DB;
+    z-index: 1;
+}
+
+.bg-shop {
+  position: absolute;
+    width: 260px;
+    height: 250px;
+    left: 403px;
+    top: 288px;
+    background: #EADDD3;
+    z-index: 1;
+}
+
+.bg-toys {
+  position: absolute;
+  width: 260px;
+  height: 250px;
+  left: 737px;
+  top: 288px;
+  background: #F8F2DA;
+  z-index: 1;
+}
+
+.bg-acc {
+  position: absolute;
+  width: 260px;
+  height: 250px;
+  left: 323px;
+  top: 603px;
+  background: #D5D4E1;
+  z-index: 1;
+}
+
+.bg-sale {
+  position: absolute;
+    width: 260px;
+    height: 250px;
+    left: 621px;
+    top: 603px;
+    background: #F3D0DB;
+    z-index: 1;
+}
+
+.bg-adult {
+  position: absolute;
+    width: 260px;
+    height: 250px;
+    left: 921px;
+    top: 603px;
+    background: #E5EAF8;
+    z-index: 1;
 }
 
 .category__listup-appk {
   font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
-    position: absolute;
-    left: 184px;
-    top: 378px;
-    width: 131px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+  top: 375px;
+  left: 101px;
+  width: 190px;
+  position: absolute;
+  z-index: 3;
 }
 
 .category__listup-holi {
   position: absolute;
-  left: 446px;
-  top: 314px;
+    left: 434px;
+    top: 287px;
+    z-index: 3;
 }
 
 .category__listup-hol {
@@ -166,12 +217,14 @@ body {
   left: 484px;
   top: 378px;
   width: 131px;
+  z-index: 3;
 }
 
 .category__listup-toys {
   position: absolute;
-  left: 53.2%;
-  top: 302px;
+    left: 732px;
+    top: 271px;
+    z-index: 3;
 }
 
 .category__listup-toy {
@@ -185,14 +238,16 @@ body {
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
   position: absolute;
-  left: 814px;
-  top: 394px;
+  left: 820px;
+  top: 382px;
+  z-index: 3;
 }
 
 .category__listdown-acc {
   position: absolute;
     left: 24.6%;
     top: 604px;
+    z-index: 3;
 }
 
 .category__listdown-acces {
@@ -206,14 +261,16 @@ body {
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
   position: absolute;
-  left: 354px;
-  top: 687px;
+  left: 356px;
+  top: 712px;
+  z-index: 3;
 }
 
 .category__listdown-sale{
   position: absolute;
   left: 626px;
   top: 605px;
+  z-index: 3;
 }
 
 .category__listdown-sal{
@@ -228,13 +285,15 @@ body {
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
   position: absolute;
   left: 715px;
-  top: 687px;
+  top: 712px;
+  z-index: 3;
 }
 
 .category__listdown-app {
   position: absolute;
   right: 156px;
   top: 627px;
+  z-index: 3;
 }
 
 .category__listdown-appa {
@@ -248,15 +307,8 @@ body {
   color: #FFFFFF;
   text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
   position: absolute;
-  top: 671px;
+  top: 712px;
   right: 227px;
   left: 980px;
-}
-
-.header__list-one {
-  margin-left: 69px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 20px;
-  align-items: center;
+  z-index: 3;
 }
