@@ -83,7 +83,8 @@ li {
 }
 
 .info {
-  display: flex;
+  display: inline-flex;
+  gap: 146px
 }
 
 .nav {
